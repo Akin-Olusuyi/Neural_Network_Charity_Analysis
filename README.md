@@ -75,7 +75,10 @@ Each effort may be broken down into the following categories
 
 - Attempt 3 -3 Layers -80, 20, and 30 neurons -Tanh activation -100 epochs
 
-Below is a screenshots of the code used to increase model performance
+
+Below is a screenshots of **Attempt 3** code:
+
+<img width="935" alt="image" src="">
 
 
 

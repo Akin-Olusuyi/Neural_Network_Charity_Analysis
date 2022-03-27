@@ -14,41 +14,41 @@ The "IS SUCCESSFUL" column is used as the model's aim.
 
 The below variables are considered to be the features of the optimized model:
 
--“APPLICATION_TYPE”
+- APPLICATION_TYPE
 
--“CLASSIFICATION”
+- CLASSIFICATION
 
--“AFFILIATION”
+- AFFILIATION
 
--“ORGANIZATION”
+- ORGANIZATION
 
--“STATUS”
+- STATUS
 
--“INCOME_AMT”
+- INCOME_AMT 
 
--“ASK_AMT”
+- ASK_AMT
 
 ### What variable(s) are neither targets nor features, and should be removed from the input data?
 
 The below variables are neither targets nor features, and should be removed from the input data:
 
--"EIN"
+- EIN 
 
--"NAME"
+- NAME 
 
--"USE_CASE"
+- USE_CASE
 
--"SPECIAL CONSIDERATIONS"
+- SPECIAL CONSIDERATIONS
 
 ### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 For my neural network, I chose the following neurons, layers, and activation functions. 
 
-Attempt 1 -2 Layers -90 and 45 neurons -Relu activation -40 epochs
+- Attempt 1 -2 Layers -90 and 45 neurons -Relu activation -40 epochs
 
-Attempt 2 -3 Layers -50, 30, and 10 neurons -Relu activation -30 epochs
+- Attempt 2 -3 Layers -50, 30, and 10 neurons -Relu activation -30 epochs
 
-Attempt 3 -3 Layers -80, 20, and 30 neurons -Tanh activation -100 epochs
+- Attempt 3 -3 Layers -80, 20, and 30 neurons -Tanh activation -100 epochs
 
 In order to boost the predicted accuracy to 75%.  Initially, I just raised the number of neurons to test whether a simple solution would result in a higher degree of prediction accuracy, but the problem was not simple enough to be linearly separated, as was thought.As a result, in each successive effort, I decided to increase the layers, nodes, and epochs, based on the principle of "going for depth," which claims that "Empirically, more depth does tend to result in better generalisation for a wide range of tasks." 
 
@@ -61,21 +61,21 @@ I was unable to meet the 75 percent model performance goal in all my 3 attempts.
 
 To improve the model's performance, I did the following steps:
 
-For all subsequent model setups, remove any extra features (noisy variables).
+- For all subsequent model setups, remove any extra features (noisy variables).
 
-Increase the number of layers
+- Increase the number of layers
 
-Increase or reduce the number of neurons in the extra layers
+- Increase or reduce the number of neurons in the extra layers
 
-Each effort may be broken down into the following categories. 
+Each effort may be broken down into the following categories 
 
-Attempt 1 -2 Layers -90 and 45 neurons -Relu activation -40 epochs
+- Attempt 1 -2 Layers -90 and 45 neurons -Relu activation -40 epochs
 
-Attempt 2 -3 Layers -50, 30, and 10 neurons -Relu activation -30 epochs
+- Attempt 2 -3 Layers -50, 30, and 10 neurons -Relu activation -30 epochs
 
-Attempt 3 -3 Layers -80, 20, and 30 neurons -Tanh activation -100 epochs
+- Attempt 3 -3 Layers -80, 20, and 30 neurons -Tanh activation -100 epochs
 
-Below is a screenshots of the code used to increase model performance.
+Below is a screenshots of the code used to increase model performance
 
 
 

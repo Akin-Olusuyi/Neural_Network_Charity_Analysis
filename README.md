@@ -78,7 +78,7 @@ Each effort may be broken down into the following categories
 
 Below is a screenshots of **Attempt 3** code:
 
-<img width="935" alt="image" src="">
+<img width="935" alt="image" src="https://github.com/Akin-Olusuyi/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt%203%20Code.png">
 
 
 
